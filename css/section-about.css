@@ -1,0 +1,39 @@
+.section-about {
+  background: #f9f9f9;
+}
+
+.features__list {
+  list-style-type: none;
+  counter-reset: features__item 0;
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features__item {
+  counter-increment: features__item 1;
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.features__item::before {
+  content: counter(features__item);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background-color: #23c7ec;
+  color: var(--color-white);
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}

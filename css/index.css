@@ -1,0 +1,9 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./global.css);
+@import url(./style.css);
+@import url(./header.css);
+@import url(./section-about.css);
+@import url(./section-contact.css);
+@import url(./footer.css);
+@import url(./responsive.css);

@@ -1,0 +1,32 @@
+.footer {
+  background: #2f324b;
+}
+
+.footer__inner {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer__logo {
+  margin-right: 20px;
+}
+
+.footer__nav {
+}
+
+.footer__copyright,
+.footer__author {
+  color: var(--color-white);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.footer__copyright {
+  margin-right: auto;
+  max-width: 127px;
+}
+
+.footer__author {
+  margin: auto;
+}
