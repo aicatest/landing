@@ -25,6 +25,11 @@
     <link rel="preload" href="roboto-v30-cyrillic-900.woff" as="font"
       type="font/woff" crossorigin>
 
+
+    <link href="
+      https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+      " rel="stylesheet">
+
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
@@ -79,20 +84,26 @@
               осмысленного текста рыбы на русском языке, а начинающему оратору
               отточить.</p>
 
-            <ol class="features__list">
-              <li class="features__item">
-                Первое целевое преимущество
-              </li>
-              <li class="features__item">
-                Второе целевое преимущество
-              </li>
-              <li class="features__item">
-                Третье целевое преимущество
-              </li>
-              <li class="features__item">
-                Четвертое целевое преимущество
-              </li>
-            </ol>
+
+            <section class="splide">
+              <div class="splide__track">
+                <ol class="features__list splide__list">
+                  <li class="features__item splide__slide">
+                    Первое целевое преимущество
+                  </li>
+                  <li class="features__item splide__slide">
+                    Второе целевое преимущество
+                  </li>
+                  <li class="features__item splide__slide">
+                    Третье целевое преимущество
+                  </li>
+                  <li class="features__item splide__slide">
+                    Четвертое целевое преимущество
+                  </li>
+                </ol>
+              </div>
+            </section>
+
           </div>
 
         </div>
@@ -159,5 +170,10 @@
       </div>
     </footer>
 
+
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

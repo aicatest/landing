@@ -183,11 +183,11 @@
   }
 
   .features__list {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .features__item {
-    max-width: 166px;
+    max-width: 290px;
     margin-bottom: 40px;
   }
 
@@ -252,4 +252,5 @@
   justify-content: center;
 
 }
+
 }
