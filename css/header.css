@@ -37,13 +37,13 @@
 .nav__phone {
   color: var(--color-white);
   font-family: "Roboto", sans-serif;
-  font-size: 23px;
+  font-size: 17px;
   margin-bottom: 3px;
 }
 
 .nav__action {
   color: var(--color-white);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .header__inner {
@@ -51,26 +51,27 @@
 }
 
 .header__title {
-  max-width: 900px;
+  max-width: 887px;
   color: rgba(255, 255, 255, 0.86);
   text-align: center;
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 900;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 
 .header__description {
-  max-width: 960px;
+  max-width: 950px;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 22px;
-  line-height: 1.4;
+  font-size: 17px;
+  line-height: 1.2;
   margin: 0 auto;
   margin-bottom: 90px;
 }
 
 .header__button {
-  padding: 12px 48px;
+  padding: 10px 36px;
+  font-size: 19px;
 }
 
 .nav__mobile {
